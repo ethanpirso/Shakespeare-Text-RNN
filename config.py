@@ -2,7 +2,7 @@ class Config:
     def __init__(self):
         self.batch_size = 64
         self.learning_rate = 1e-3
-        self.max_epochs = 10
+        self.max_epochs = 1
         self.seq_length = 100
         self.embedding_dim = 256
         self.hidden_size = 512

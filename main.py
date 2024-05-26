@@ -44,6 +44,7 @@ def main():
     trainer.fit(model, data_module)
 
     start_text = "To be or not to be "
+    start_text = start_text.lower()
     generated_text = generate_text(model, config, data_module.char2idx, data_module.idx2char, start_text, config.generate_length)
     print(generated_text)
 
