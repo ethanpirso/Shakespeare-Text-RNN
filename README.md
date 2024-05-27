@@ -170,12 +170,6 @@ if __name__ == '__main__':
     print(generated_text)
 ```
 
-### Success Criteria
-- **Data Preprocessing**: The text data is preprocessed and converted into sequences suitable for RNNs.
-- **Model Implementation**: A successful RNN implementation using PyTorch Lightning.
-- **Text Generation**: The generated text should show coherent structure and stylistic similarities with the original Shakespearean text.
-- **Documentation**: Clear documentation of architecture decisions, training process, and generation method.
-
 ### Requirements
 List the necessary dependencies in `requirements.txt`:
 ```
