@@ -4,13 +4,14 @@ This project aims to implement a Recurrent Neural Network (RNN) to generate text
 
 ## Directory Structure
 ```
-text_generation_project/
+Shakespeare-Text-RNN/
 │
 ├── main.py          # Main training and generation script
 ├── models.py        # Model definition
 ├── datamodule.py    # Data preparation
 ├── config.py        # Configuration
 ├── utils.py         # Utility functions for text processing
+├── shakespeare.txt  # Text data from Shakespeare's plays
 └── requirements.txt # Python dependencies
 ```
 
